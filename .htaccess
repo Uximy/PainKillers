@@ -1,0 +1,33 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/painhnhb/online"
+PassengerBaseURI "/"
+PassengerNodejs "/home/painhnhb/nodevenv/online/14/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# Включаем перенаправление
+RewriteEngine On
+# Не применять к существующим файлам файлам
+RewriteCond %{REQUEST_FILENAME} !-f
+# Не применять к существующим директориям
+RewriteCond %{REQUEST_FILENAME} !-d
+# Редирект всех запросов на index.php
+# L означает Last, нужен чтобы на этом этапе mod_rewrite сразу остановил работу.
+# Короче, небольшое увеличение производительности.
+RewriteRule .* index.php [L]
+# Заблокировать гулять по дериктории сайта
+Options All -Indexes
+AddDefaultCharset UTF-8
+# Включаем перенаправление
+RewriteEngine On
+# Не применять к существующим файлам файлам
+RewriteCond %{REQUEST_FILENAME} !-f
+# Не применять к существующим директориям
+RewriteCond %{REQUEST_FILENAME} !-d
+# Редирект всех запросов на index.php
+# L означает Last, нужен чтобы на этом этапе mod_rewrite сразу остановил работу.
+# Короче, небольшое увеличение производительности.
+RewriteRule .* index.php [L]
+# Заблокировать гулять по дериктории сайта
+Options All -Indexes
+AddDefaultCharset UTF-8

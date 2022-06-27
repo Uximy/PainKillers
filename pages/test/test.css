@@ -1,0 +1,20 @@
+body{
+    background: url("https://painkillers-organizer.com/img/background.png"), linear-gradient(90deg, #09051C 7.73%, #3D0B6E 100%) !important;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background{
+    display: none !important;
+}
+
+.container_test{
+    width: 60%;
+    margin-top: 3rem;
+}
+
+pre{
+    z-index: 2;
+}

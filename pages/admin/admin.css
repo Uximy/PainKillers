@@ -1,0 +1,69 @@
+body, html{
+    background: url("https://painkillers-organizer.com/img/background.png"), linear-gradient(90deg, #09051C 7.73%, #3D0B6E 100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background{
+    display: none !important;
+}
+
+.info_admin{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 2;
+    position: absolute;
+    bottom: 9rem;
+}
+
+.container_admin{
+    height: 35rem;
+    padding: 0;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    width: 20rem;
+}
+
+.panel input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border-color: transparent;
+}
+
+.btn_login{
+    background: #3D0B6E;
+    height: 2em !important;
+    border-radius: 8px !important;
+    font-family: 'Pulsar - Original', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: background .5s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_login:hover{
+    background: #260546;
+}

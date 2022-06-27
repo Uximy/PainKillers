@@ -1,0 +1,353 @@
+body{
+    background: url("https://painkillers-organizer.com/img/background.png"), linear-gradient(90deg, #09051C 7.73%, #3D0B6E 100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background{
+    display: none !important;
+}
+
+
+/*? Tournament */
+
+.form p{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.container_Tournament {
+    flex-direction: row !important;
+    column-gap: 40px;
+    row-gap: 0 !important;
+    width: 75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container_Tournament p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card_Tournament {
+    width: 425px;
+    height: 286px;
+    background: #09051C;
+    border-radius: 50px;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.title_img {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.title_img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.body_Tournament{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15.98px;
+}
+
+.head .title{
+    font-family: 'Pulsar - Original', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.head .date{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.footer_Tournament{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_Tournament .prize{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.41em;
+    text-transform: uppercase;
+    width: 128.4px;
+    text-align: center;
+}
+
+.footer_Tournament .money{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+/*? EDIT AND ADDTournament */
+
+.container_ActionTournament{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.container_editTournament{
+    width: 65%;
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_edit{
+    row-gap: 0.5em !important;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    row-gap: 1.5em;
+}
+
+.form input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border-color: transparent;
+}
+
+.form p{
+    margin: 0;
+}
+
+.form p label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn_Send{
+    background: #3D0B6E;
+    height: 2em !important;
+    border-radius: 8px !important;
+    font-family: 'Pulsar - Original', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: background .5s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_Send:hover{
+    background: #260546;
+}
+
+.input_wrapper {
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+}
+ 
+.input_file{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.input_file-icon-wrapper {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #fff;
+}
+ 
+.input_file-button-text {
+    line-height: 1;
+    margin-top: 1px;
+    width: 9rem;
+}
+ 
+.input_file-button {
+    width: 100%;
+    max-width: 290px;
+    height: 60px;
+    background: #128f75;
+    color: #fff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 1.125rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background .5s ease-in-out;
+}
+
+.input_file-button:hover{
+    background: #0d6d5a;
+}
+
+.select select {
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #0d6d5a;
+    background-image: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+select::-ms-expand {
+    display: none;
+}
+.select {
+    position: relative;
+    display: flex;
+    width: 15em;
+    height: 3em;
+    border-radius: 13px;
+    transition: .25s border-radius ease;
+    overflow: hidden;
+}
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #128f75;
+    pointer-events: none;
+}
+.select:hover {
+    border-radius: 13px 13px 0 0;
+}
+
+.action {
+    position: absolute;
+    top: 0rem !important;
+    right: 5px !important;
+    display: flex;
+    column-gap: 15px;
+    z-index: 1;
+}
+
+.action input{
+    border-radius: 10px;
+    background: #3f51b5;
+    color: #fff;
+    border: 0;
+    width: 3rem;
+    height: 2rem;
+    outline: none;
+    transition: .5s background ease-in-out, .5s color ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.edit{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600;
+}
+
+.trash{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600;
+}
+
+.action input:hover{
+    background: #202d79;
+    color: #e2dbdb;
+}
+
+.container_ActionTournament a{
+    border-radius: 10px;
+    background: #3f51b5;
+    color: #fff;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s background ease-in-out, .5s color ease-in-out;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.container_ActionTournament a:hover{
+    background: #202d79;
+    color: #e2dbdb;
+}

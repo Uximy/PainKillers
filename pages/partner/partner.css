@@ -1,0 +1,126 @@
+body{
+    background: url("https://painkillers-organizer.com/img/background.png"), linear-gradient(90deg, #09051C 7.73%, #3D0B6E 100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background{
+    display: none !important;
+}
+
+
+/*? Partners */
+
+.container_Partners{
+    padding-top: 0 !important;
+    row-gap: 0 !important;
+}
+
+.partners{
+    display: flex;
+    align-items: baseline;
+    column-gap: 250px;
+    margin-top: 65px;
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.partners .partner:nth-child(2) img{
+    width: 10rem;
+}
+
+.partner a{
+    font-family: 'Pulsar - Original', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 46px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px rgba(255, 255, 255, 0.3);
+    transition: text-shadow .6s ease-in-out;
+    position: relative;
+}
+
+.partner a::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: -5px;
+    left: 0;
+    background: #fff;
+    transition: width .6s ease-in-out, box-shadow .6s ease-in-out;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.partner a:hover{
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+.partner a:hover::after{
+    width: 100%;
+    box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.3);
+}
+
+.description{
+    width: 758px;
+    margin: 79px 0 50px 0;
+}
+
+.description p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.description p a{
+    font-weight: 600;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    position: relative;
+    text-shadow: 0px 0px rgba(255, 255, 255, 0.3);
+    transition: text-shadow .6s ease-in-out;
+}
+.description p a:hover{
+    text-shadow: 0px 0px 20px rgb(255 255 255);
+}
+
+.description p:nth-child(4) a:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: -5px;
+    left: 0;
+    background: #fff;
+    transition: width .6s ease-in-out, box-shadow .6s ease-in-out;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.description p:nth-child(4) a:hover:after{
+    width: 100%;
+}
+
+.description p:nth-child(2){
+    margin: 30px 0;
+}
+
+.description p:nth-child(3){
+    margin-bottom: 30px;
+}
+
+.description p:nth-child(4){
+    margin-bottom: 30px;
+    font-size: 16px;
+}

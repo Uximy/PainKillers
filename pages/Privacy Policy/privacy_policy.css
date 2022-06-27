@@ -1,0 +1,30 @@
+body{
+    background: url("https://painkillers-organizer.com/img/background.png"), linear-gradient(90deg, #09051C 7.73%, #3D0B6E 100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background{
+    display: none !important;
+}
+
+
+.title_privacy{
+    width: 80%;
+}
+
+.container_privacy{
+    padding-top: 2rem;
+    width: 80%;
+}
+
+.container_privacy p{
+    padding: 0 4rem;
+    margin-bottom: 40px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+}

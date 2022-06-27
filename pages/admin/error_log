@@ -1,0 +1,36 @@
+[27-May-2022 03:57:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 03:59:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 04:01:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 04:03:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 04:03:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 04:17:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 04:18:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 05:14:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16
+[27-May-2022 05:14:53 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_Admin() in /home/painhnhb/public_html/pages/admin/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/painhnhb/public_html/pages/admin/admin.php on line 16

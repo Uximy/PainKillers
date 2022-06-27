@@ -1,0 +1,683 @@
+@media screen and (min-width: 1920px) {
+    .header{
+        left: -17rem;
+    }
+
+    .navigation ul li a{
+        font-size: 17.5px;
+    }
+
+    .aside{
+        width: 110px;
+    }
+
+    .aside .logo img{
+        width: 60px;
+    }
+
+    .social a{
+        font-size: 22px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .about{
+        height: 350px;
+    }
+
+    .about_img{
+        width: 620px;
+        height: 373px;
+    }
+
+    .about_img img{
+        width: 620px;
+    }
+
+    .about_img::before{
+        width: 620px;
+        height: 373px;
+    }
+
+    .content h2{
+        font-size: 20px;
+    }
+
+    .content p{
+        font-size: 23px;
+    }
+
+    .content p:nth-child(3) {
+        width: 555px;
+    }
+
+    .copy{
+        height: 50px;
+    }
+
+    .copy_logo img {
+        width: 55px;
+    }
+
+    .copy a{
+        font-size: 29px;
+    }
+
+    .copy span{
+        font-size: 14px;
+    }
+
+    .links a{
+        font-size: 13px;
+    }
+
+    /*? News */
+
+    .btn-action{
+        width: 88px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    .btn_more{
+        font-size: 26px;
+    }
+
+    .create_news{
+        width: 255px;
+        height: 55px;
+        font-size: 26px;
+    }
+
+    .title_container{
+        width: 90%;
+    }
+
+    .container_Tournament{
+        column-gap: 30px;
+        width: 95rem;
+    }
+
+    .container_ActionTournament{
+        width: 65% !important;
+    }
+
+    .container_admin{
+        width: 60% !important;
+    }
+
+    .card_Tournament{
+        margin-bottom: 4rem;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .action{
+        column-gap: 1rem;
+        bottom: 18.5rem;
+    }
+
+    .container_actiomNews{
+        width: 60%;
+    }
+
+    .partners .partner img {
+        width: 10rem;
+    }
+
+    .partners .partner:nth-child(2) img{
+        width: 13rem;
+    }
+
+    .partner a{
+        font-size: 58px;
+    }
+
+    .description p{
+        font-size: 24px;
+    }
+
+    .description p:nth-child(4) {
+        font-size: 21px;
+    }
+
+    .panel input{
+        width: 20rem;
+        height: 3rem;
+    }
+
+    .btn_login{
+        font-size: 30px;
+    }
+
+    .info_admin{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .content{
+        width: 525px;
+    }
+
+    .header{
+        left: -2rem;
+    }
+
+    .content p{
+        font-size: 15px;
+    }
+
+    .content p:nth-child(3) {
+        width: 378px;
+    }
+
+    .about_img{
+        width: 485px;
+        height: 292px;
+        left: -2rem;
+        bottom: 9rem;
+    }
+
+    .about_img img{
+        width: 485px;
+    }
+
+    .about_img::before{
+        height: 293px;
+    }
+
+    .card{
+        height: 20rem;
+        width: 63rem;
+    }
+
+    .card_body{
+        padding-left: 35.33px;
+    }
+
+    .card_top{
+        margin-bottom: 0;
+    }
+
+    .card_content{
+        font-size: 15px;
+        width: 25rem;
+    }
+
+    .img_block{
+        height: 20rem;
+    }
+
+    .img_block img{
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .card_Tournament{
+        width: 375px;
+        height: 262px;
+        margin-bottom: 3rem;
+    }
+
+    .head .date{
+        font-size: 15px;
+    }
+
+    .title_container{
+        width: 95%;
+    }
+
+    .btn_more{
+        width: 207px;
+        height: 44px;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .btn-action{
+        font-size: 16px;
+        height: 34px;
+    }
+
+    .container_Tournament{
+        width: 65rem;
+        column-gap: 40px;
+    }
+
+    .footer_Tournament .prize{
+        font-size: 13px;
+    }
+
+    .footer_Tournament .money{
+        font-size: 22px;
+    }
+
+    .title_container h2{
+        font-size: 86px;
+        margin: 80px 0 35px 0;
+    }
+
+    .container_admin{
+        height: 26rem;
+    }
+
+    .footer_logo{    
+        margin-left: 60px;
+    }
+
+    .links{
+        margin-right: 70px;
+    }
+
+    .navigation ul{
+        column-gap: 50px;
+    }
+
+    .navigation ul li a{
+        font-size: 11.5px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header{
+        left: -3rem;
+        width: 55rem;
+    }
+
+    .header h1{
+        font-size: 25px;
+    }
+
+    .header p{
+        font-size: 55px;
+        width: 30rem;
+    }
+
+    .navigation ul li a{
+        font-size: 13.5px;  
+    }
+
+    .aside .logo img{
+        width: 50px;
+    }
+
+    .social{
+        margin-top: 85px;
+    }
+
+    .social a{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_logo{
+        margin-left: 80px;
+    }
+
+    .copy_logo img{
+        width: 45px;
+    }
+
+    .copy a{
+        font-size: 24px;
+    }
+
+    .copy span{
+        font-size: 11px;
+    }
+
+    .links{
+        margin-right: 80px;
+    }
+
+    .links a{
+        font-size: 10px;
+    }
+
+    .about{
+        height: 223px;
+    }
+
+    .about_img{
+        width: 440px;
+        left: -1rem;
+        bottom: 9rem;
+        height: 265px;
+    }
+
+    .about_img img{
+        width: 440px;
+    }
+
+    .about_img::before{
+        height: 265px;
+    }
+
+    .content{
+        width: 667px;
+    }
+
+    .content h2{
+        font-size: 18px;
+    }
+
+    .content p{
+        font-size: 17px;
+    }
+
+    .content p:nth-child(3) {
+        width: 420px;
+    }
+
+    .card{
+        height: 20rem;
+        width: 55rem; 
+    }
+
+    .img_block{
+        height: 20rem;
+    }
+
+    .img_block img{
+        height: 20rem;
+        width: 32rem;
+    }
+
+    .card_body{
+        padding-left: 35.33px;
+    }
+
+    .card_top{
+        margin-bottom: 0;
+        row-gap: 10px;
+    }
+
+    .card_category{
+        font-size: 12px;
+    }
+
+    .title_container{
+        width: 95%;
+    }
+
+    .card_title{
+        font-size: 33px;
+    }
+
+    .card_content{
+        font-size: 11px;
+        width: 19rem;
+        height: 115px;     
+    }
+
+    .btn_more{
+        width: 170px;
+        height: 40px;
+        right: 2rem;
+        font-size: 20px;
+    }
+
+    .number_page{
+        font-size: 25px;
+    }
+
+    .container_Tournament{
+        width: 60rem;
+        column-gap: 50px;
+    }
+
+    .card_Tournament{
+        width: 350px;
+        height: 280px;
+        margin-bottom: 3rem;
+    }
+
+    .head .title{
+        font-size: 28px;
+    }
+
+    .head .date{
+        font-size: 14px;
+    }
+
+    .footer_Tournament .prize{
+        font-size: 12px;
+    }
+
+    .footer_Tournament .money{
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header{
+        left: -2rem;
+        width: 40rem;
+    }
+
+    .header h1{
+        font-size: 20px;
+    }
+
+    .header p{
+        font-size: 50px;
+        width: 30rem;
+    }
+    
+    .navigation ul{
+        column-gap: 30px;
+        margin-left: 55px;
+    }
+
+    .navigation ul li a{
+        font-size: 12.5px;  
+    }
+
+    .aside .logo img{
+        width: 42px;
+    }
+
+    .social a{
+        font-size: 15px;
+        width: 23px;
+        height: 23px;
+    }
+
+    .copy_logo img{
+        width: 35px;
+    }
+
+    .copy a{
+        font-size: 22px;
+    }
+
+    .copy span{
+        font-size: 10px;
+    }
+
+    .links a{
+        font-size: 9px;
+    }
+
+    .about{
+        height: 200px; 
+    }
+
+    .about_img{
+        width: 380px;
+        left: 0rem;
+        bottom: 8rem;
+        height: 228px;
+    }
+
+    .about_img img{
+        width: 380px;
+    }
+
+    .about_img::before{
+        height: 228px;
+    }
+
+    .content{
+        width: 476px;
+    }
+
+    .content h2{
+        font-size: 12px;
+    }
+    
+    .content h2::before{
+        width: 223px;
+    }
+
+    .content p{
+        font-size: 11px;
+    }
+
+    .content p:nth-child(3) {
+        width: 275px;
+    }
+
+    .home_container{
+        width: 73%;
+    }
+
+    .title_container h2{
+        font-size: 86px; 
+    }
+
+    .description{
+        width: 620px; 
+    }
+
+    .partner a{
+        font-size: 35px; 
+    }
+
+    .description p{
+        font-size: 16px;
+    }
+
+    .card_body{
+        padding-left: 20.33px;
+    }
+
+    .img_block{
+        height: 15rem;
+    }
+
+    .img_block img{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .card{
+        height: 15rem;
+        width: 40rem; 
+    }
+
+    .card_top{
+        margin-bottom: 0;
+        row-gap: 10px;
+    }
+
+    .card_title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .card_category{
+        font-size: 10px;
+    }
+
+    .card_content{
+        width: 15rem;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .btn_more{
+        width: 100px;
+        height: 25px;
+        margin-bottom: 0;
+        bottom: 10px;
+        right: 3rem;
+        font-size: 12px;
+    }
+
+    .btn-action{
+        width: 55px;
+        height: 23px;
+        font-size: 10px;
+        border-radius: 6px;
+    }
+
+    .number_page{
+        font-size: 14px; 
+    }
+
+    .create_news{
+        width: 200px;
+        height: 42px;
+        font-size: 22px;
+        right: 1rem;
+    }
+
+    .title_container h2{
+        font-size: 80px;
+        margin: 75px 0 42px 0;
+    }
+
+    .navigation ul li a {
+        font-size: 10.5px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .header{
+        top: 0;
+        left: 0;
+        width: 46rem;
+    }
+
+    .header h1{
+        font-size: 22px;
+    }
+
+    .header p{
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .navigation ul {
+        margin-left: -64px;
+        column-gap: 10px;
+    }
+    
+    .navigation ul li a {
+        font-size: 6.5px;
+    }
+
+    .navigation {
+        height: 74px;
+        width: 39%;
+    }
+
+    .header{
+        width: 0;
+        left: -5rem;
+    }
+
+    .header p{
+        width: 0;
+        font-size: 31px;
+    }
+
+}
