@@ -1,4 +1,4 @@
-const host_counter = "http://painkillers-organizer.com:3000";
+const host_counter = "https://painkillers-organizer.com:3000";
 // PASS your query parameters
 const randomId = Math.floor(Math.random() * 100);
 const queryParams = { userId: randomId };
@@ -6,7 +6,9 @@ const socket = io(host_counter, {
     path: "/pathToConnection",
     transports: ['websocket'],  // https://stackoverflow.com/a/52180905/8987128
     upgrade: false,
-    query: queryParams
+    query: queryParams,
+    enabledTransports: ['ws', 'wss'],
+    reconnection: false
 });
 
 document.getElementById("host").innerHTML = host_counter;

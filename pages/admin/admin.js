@@ -5,7 +5,6 @@ $(document).on('click', '#btn_login', function () {
     $.ajax({
         url: '../handler.php', // скрипт который получит отправление
         type: 'GET', // метод
-        // dataType: 'json',
         data: {
             Session_admin: getSession,
         }, success: function (data) {

@@ -14,7 +14,7 @@ function is_Admin()
 
 function is_Uximy()
 {
-    if ($_SERVER['REMOTE_ADDR'] == '178.91.237.161') {
+    if ($_SERVER['REMOTE_ADDR'] == '2.135.145.69') {
         return true;
     } else {
         return false;
@@ -27,6 +27,7 @@ function Content($version = '0.001')
 
     $segments = explode('/', trim($url, '/'));
 
+    $title = null;
     $style = null;
     $file = null;
 
@@ -58,7 +59,7 @@ function Content($version = '0.001')
         $style = 'admin/admin.css';
     } 
     elseif ($segments[0] === 'test')
-    if ($_SERVER['REMOTE_ADDR'] == '178.91.237.161') {
+    if (is_Uximy()) {
         $title = "Test Room";
         $file = 'test/test.php';
         $style = 'test/test.css';

@@ -22,7 +22,7 @@ if ($input) {
     <a href="/news"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></a>
     <form class="form" method="POST" enctype="multipart/form-data">
         <p><label>News headline:</label><input class="form-control" name="Title" placeholder="Title"></p>
-        <p><label>Сontent:</label><textarea class="form-control" name="Content" placeholder="Content" cols="28" rows="10" data-lt-tmp-id="lt-388545" spellcheck="false"></textarea></p>
+        <div class="content_news"><label>Сontent:</label><textarea class="form-control" name="Content" placeholder="Content" cols="28" rows="10" data-lt-tmp-id="lt-388545" spellcheck="false"></textarea></div>
         <div class="select">
             <Select name="Сategory">
                 <option value="Arcticle">Arcticle</option>

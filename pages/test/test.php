@@ -18,7 +18,7 @@
         <h1>Logs</h1>
         <div id="logs"></div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+    <script src="../js/socket.io.min.js"></script>
     <script src="../js/script.js"></script>
 
 </section>

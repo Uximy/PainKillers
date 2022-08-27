@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Without Pain to Victory!">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <?php require_once 'handler.php' ?>
     <title>PainKillers Esports<?= Content()[1] ?></title>
     <link rel="shortcut icon" sizes="72x72" href="../img/logo.png" type="image/png">
@@ -95,7 +94,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/2d3fdcc76b.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+    <!-- <script src="./js/socket.io.js"></script> -->
     <!-- <script src="../js/script.js"></script> -->
 </body>
 

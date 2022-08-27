@@ -189,8 +189,8 @@ body, html{
     letter-spacing: 0.41em;
     text-transform: uppercase;
     margin: 0;
-    position: relative;
-    bottom: 10px;
+    position: absolute;
+    top: 12%;
 }
 
 .card_title{
@@ -318,9 +318,15 @@ body, html{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
+    width: 100%;
 }
 
-.form p:nth-child(2){
+.content_news{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%;
     row-gap: 8px;
 }
 

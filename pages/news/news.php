@@ -28,7 +28,7 @@ if ($delete) {
 function Reader($result, $str_pag)
 {
     if ($result) {
-        foreach ($result as $k => $value) {
+        foreach ($result as $value) {
     
             echo "
             <div class='card'>
@@ -77,9 +77,9 @@ function Reader($result, $str_pag)
                 for ($i = 1; $i <= $str_pag; $i++){
                     echo '<li><a class="number_page" href=?page='.$i.'>'.$i.'</a></li>';
                 }
-        echo "
-            </ul>
-            ";
+            echo "
+                </ul>
+                ";
         }
        
         echo"
