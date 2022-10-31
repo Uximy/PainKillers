@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once './db.php';
-$db = connect('localhost', 'painhnhb_root', '}KFtR?c4hA.Q', 'painhnhb_painkilles_db');
+$db = connect('localhost', 'user', 'password', 'db_name');
 
 function is_Admin()
 {   
