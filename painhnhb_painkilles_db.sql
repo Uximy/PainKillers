@@ -55,13 +55,6 @@ CREATE TABLE `panel` (
   `password` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Дамп данных таблицы `panel`
---
-
-INSERT INTO `panel` (`id`, `login`, `password`) VALUES
-(1, 'painkillers', 'RaABB?stWjmM');
-
 -- --------------------------------------------------------
 
 --
