@@ -11,6 +11,7 @@
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP 5.6 и выше  
 - **Web Server:** Nginx или Apache2
+- **База даных:** MYSQL
 
 ## 📸 Скриншот
 
